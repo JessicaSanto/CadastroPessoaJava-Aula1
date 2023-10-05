@@ -1,9 +1,11 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
+
         System.out.println("Bem vindo ao sistema de cadastro de Pessoas Físicas e Juridicas");
 
         Scanner scanner = new Scanner(System.in);
@@ -26,7 +28,6 @@ public class Main {
 
                         switch (opcaoPf) {
                             case 1:
-
                                 break;
                             case 2:
                                 break;
@@ -43,6 +44,9 @@ public class Main {
                     break;
 
                 case 0:
+                    break;
+
+                default:
                     break;
             }
         } while (opcao != 0);
